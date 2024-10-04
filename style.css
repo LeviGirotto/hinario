@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: "Quicksand", system-ui;
+    margin: 0;
+    padding: 0;
+    display: flexbox;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('img/violao.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#header-1{
+    font-size: 10vh;
+    margin-bottom: 20vh;
+    margin-top: 3vh;
+}
+
+#header-2{
+    margin-top: 2vh;
+    font-size: 6vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+.hino-div{
+    width: 100%;
+    margin-top: 5vh;
+}
+
+.hino{
+    width: 90%;
+    border-radius: 6vh;
+}
+
+.opcoes{
+    background-color: white;
+    height: 12vh;
+    width: 90vw;
+    margin-top: 3vh;
+    margin-left: 5vw;
+    border-radius: 3.5vh;
+}
+
+#abrir-o-hinario{
+    font-family: "Quicksand", system-ui;
+    font-size: 3.5vh;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    border-radius: 3.5vh;
+    height: 12vh;
+    width: 90vw;
+    border: none;
+}
+
+#abrir-o-hinario:focus{
+    background-color: rgb(134, 134, 134);
+    color: white;
+    border: solid 2px white;
+}
+
+#inserir-numero{
+    margin-top: 3vh;
+    height: 6vh;
+    width: 50vw;
+    border-radius: 1.5vh;
+    background-color: rgb(182, 182, 182);
+    border: none;
+    font-size: 2.5vh;
+    transition-duration: 0.2s;
+}
+
+#inserir-numero:focus{
+    border-radius: 0;
+    background-color: rgb(218, 218, 218);
+    outline: none;
+    transition-duration: 0.2s;
+}
+
+#procurar{
+    height: 6vh;
+    width: 24vw;
+    border-radius: 1.5vh;
+    font-size: 2.5vh;
+    border: none;
+    background-color: rgb(71, 142, 175);
+    color: white;
+}
+
+#procurar:focus{
+    color: rgb(71, 142, 175);
+    background-color: white;
+    border: solid 2px rgb(71, 142, 175);
+}
+
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
