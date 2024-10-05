@@ -62,23 +62,23 @@ a{
 }
 
 #opcao1{
-    background-color: rgba(0, 0, 0, 0.400);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 #opcao2{
-    background-color: rgba(0, 0, 0, 0.400);
-    border: solid 3px white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: solid 1px rgb(255, 255, 255, 0.5);
 }
 
 #opcao3{
-    margin-top: 2vh;
+    margin-top: 2.5vh;
 }
 
 #abrir-cifras{
     font-family: "Quicksand", system-ui;
     font-size: 3vh;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.6);
 }
 
 #abrir-cifras:focus{
@@ -91,7 +91,7 @@ a{
     font-weight: 700;
     color: white;
     background-color: transparent;
-    border: 3px solid white;
+    border: 1px solid rgb(255, 255, 255, 0.5);
     border-radius: 3.5vh;
     height: 12vh;
     width: 90vw;
@@ -122,7 +122,7 @@ a{
 }
 
 #inserir-numero::placeholder{
-    color: white;
+    color: rgb(255, 255, 255, 0.8);
 }
 
 #inserir-numero:focus::placeholder{
