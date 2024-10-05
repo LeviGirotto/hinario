@@ -61,7 +61,12 @@ a{
     border-radius: 3.5vh;
 }
 
+#opcao1{
+    background-color: rgba(0, 0, 0, 0.350);
+}
+
 #opcao2{
+    background-color: rgba(0, 0, 0, 0.350);
     border: solid 3px white;
 }
 
