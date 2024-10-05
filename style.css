@@ -62,11 +62,11 @@ a{
 }
 
 #opcao1{
-    background-color: rgba(0, 0, 0, 0.350);
+    background-color: rgba(0, 0, 0, 0.400);
 }
 
 #opcao2{
-    background-color: rgba(0, 0, 0, 0.350);
+    background-color: rgba(0, 0, 0, 0.400);
     border: solid 3px white;
 }
 
@@ -78,7 +78,7 @@ a{
     font-family: "Quicksand", system-ui;
     font-size: 3vh;
     font-weight: 400;
-    color: rgb(156, 156, 156);
+    color: rgba(255, 255, 255, 0.5);
 }
 
 #abrir-cifras:focus{
