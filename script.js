@@ -18,3 +18,10 @@ procurar.addEventListener('click', function() {
         alert(`Digite um número válido entre 1 e 57.`);
     }
 });
+
+window.addEventListener("pageshow", function(event) {
+    if (event.persisted) {
+      window.location.reload();
+    }
+  })
+  
