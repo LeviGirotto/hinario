@@ -1,7 +1,9 @@
 const abrir_o_hinario = document.getElementById('abrir-o-hinario')
+let div_abrir_hinario = document.getElementById('opcao1')
 
 abrir_o_hinario.addEventListener('click', function() {
     window.location.href = 'hinarioweb.html';
+    div_abrir_hinario.style.backgroundColor = "white"
 });
 
 const procurar = document.getElementById('procurar');

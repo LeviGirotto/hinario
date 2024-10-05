@@ -29,6 +29,7 @@ body{
 
 a{
     text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .hino-div{
@@ -52,7 +53,7 @@ a{
 }
 
 .opcoes{
-    background-color: white;
+    background-color: transparent;
     height: 12vh;
     width: 90vw;
     margin-top: 3vh;
@@ -60,73 +61,84 @@ a{
     border-radius: 3.5vh;
 }
 
+#opcao2{
+    border: solid 3px white;
+}
+
 #opcao3{
     margin-top: 2vh;
-    background-color: transparent;
 }
 
 #abrir-cifras{
     font-family: "Quicksand", system-ui;
     font-size: 3vh;
-    font-weight: 700;
-    color: white;
-    text-decoration: underline;
+    font-weight: 400;
+    color: rgb(156, 156, 156);
 }
 
 #abrir-cifras:focus{
-    color: rgb(71, 142, 175);
+    color: rgb(255, 255, 255);
 }
 
 #abrir-o-hinario{
     font-family: "Quicksand", system-ui;
-    font-size: 3.5vh;
+    font-size: 4vh;
     font-weight: 700;
-    color: rgb(0, 0, 0);
+    color: white;
     background-color: transparent;
+    border: 3px solid white;
     border-radius: 3.5vh;
     height: 12vh;
     width: 90vw;
+}
+
+#abrir-o-hinario:focus{ 
+    color: rgb(0, 0, 0);
     border: none;
 }
 
-#abrir-o-hinario:focus{
-    background-color: rgb(134, 134, 134);
-    color: white;
-    border: solid 2px white;
-}
-
 #inserir-numero{
+    font-family: "Quicksand", system-ui;
     margin-top: 3vh;
     height: 6vh;
     width: 50vw;
     border-radius: 1.5vh;
-    background-color: rgb(182, 182, 182);
+    background-color: transparent;
+    color: rgb(0, 0, 0);
     border: none;
     font-size: 2.5vh;
     transition-duration: 0.2s;
 }
 
 #inserir-numero:focus{
-    border-radius: 0;
     background-color: rgb(218, 218, 218);
     outline: none;
     transition-duration: 0.2s;
 }
 
-#procurar{
-    height: 6vh;
-    width: 24vw;
-    border-radius: 1.5vh;
-    font-size: 2.5vh;
-    border: none;
-    background-color: rgb(71, 142, 175);
+#inserir-numero::placeholder{
     color: white;
 }
 
+#inserir-numero:focus::placeholder{
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+
+#procurar{
+    font-family: "Quicksand", system-ui;
+    height: 6vh;
+    width: 25vw;
+    border-radius: 1.5vh;
+    font-size: 2.5vh;
+    border: solid 2px rgb(87, 173, 212);
+    background-color: transparent;
+    color: rgb(87, 173, 212);
+}
+
 #procurar:focus{
-    color: rgb(71, 142, 175);
-    background-color: white;
-    border: solid 2px rgb(71, 142, 175);
+    color: white;
+    background-color: rgb(87, 173, 212);
 }
 
 html {
